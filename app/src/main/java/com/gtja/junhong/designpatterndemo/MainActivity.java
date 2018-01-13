@@ -89,6 +89,9 @@ public class MainActivity extends Activity {
 
     }
 
+    /**
+     * parse local data for selector
+     */
     private void parseOptions() {
         try {
             InputStream inputStream = getAssets().open("options.xml");
